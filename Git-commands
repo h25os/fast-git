@@ -1,0 +1,18 @@
+ls
+clear
+git --version
+git --help
+
+git init
+git add app.js
+git add .
+git status
+git commit -m "add-button to nav bar"
+git config --global user.name "test project"
+git config --global user.email "email@yahoo.com"
+git log
+git branch
+git branch develop
+git checkout develop
+git branch -d develop
+git merge
