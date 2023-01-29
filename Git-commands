@@ -2,15 +2,22 @@ ls
 clear
 git --version
 git --help
-
+code .
 git init
-git add app.js
+git add index.html
 git add .
 git status
 git commit -m "add-button to nav bar"
 git config --global user.name "test project"
 git config --global user.email "email@yahoo.com"
+git config --list
 git log
+git log --oneline
+git restore --staged index.html
+git restore index.html
+git clone http:...
+git remote add origin https:git address
+git push -u origin master https:git address
 git branch
 git branch develop
 git checkout develop
