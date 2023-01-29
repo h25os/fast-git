@@ -8,6 +8,7 @@ git add index.html
 git add .
 git status
 git commit -m "add-button to nav bar"
+git commit -a -m "add-button to nav bar"
 git config --global user.name "test project"
 git config --global user.email "email@yahoo.com"
 git config --list
